@@ -14,22 +14,19 @@ Based on wowpanda/esx_joblisting2
 ```
 cd resources
 git clone https://github.com/Yarpii-Tech/esx_joblisting2.git [esx]/esx_joblisting2
-
 ```
 
 ### Manually
 - Download https://github.com/Yarpii-Tech/esx_joblisting2/archive/master.zip
 - Put it in the `[esx]` directory
 
-```
 
 ## Installation
 - Check in your database 'jobs' table exist in your datbase..
-- if not then import 'import.sql' to your database you use. 
+- if not then import 'import.sql' to your database. 
 - Add this in your `server.cfg`:
 ```
 ensure esx_joblisting2
-```
 ```
 
 # Make it work
@@ -54,7 +51,7 @@ Config.Webhook = {
 ```
 Then 
 ```
-police = " PAST YOUR WEBHOOK URL HERE !!!!",
+police = " PAST YOUR WEBHOOK URL HERE !!!! ",
 ```
 And it will look something like this:
 ```
@@ -68,10 +65,8 @@ Config.Webhook = {
 	taxi = "taxi",
 	delivery = "delivery"
 }
+```
 
-
-#start esx_joblisting
-start esx_joblisting2
 ```
 I forked these files from: 		https://github.com/wowpanda/esx_joblisting2
 And i copied this nice readme from: 	https://github.com/NebelRebell/esx_joblisting2
