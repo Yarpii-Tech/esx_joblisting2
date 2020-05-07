@@ -24,10 +24,17 @@ git clone https://github.com/Yarpii-Tech/esx_joblisting2.git [esx]/esx_joblistin
 ## Installation
 - Check in your database 'jobs' table exist in your datbase..
 - if not then import 'import.sql' to your database. 
-- Add this in your `server.cfg`:
+
+Now open your `server.cfg`
+and rename 
+```
+ensure esx_joblisting
+```
+to
 ```
 ensure esx_joblisting2
 ```
+
 
 # Make it work
 
