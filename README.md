@@ -1,5 +1,3 @@
-# GERMAN EDITION
-
 ## INSTRUCTION
 Application to the employment office at a known location. Callback number and SteamID64 added; application will be implemented and posted directly in Discord via Weebhook-Link.
 
@@ -26,10 +24,12 @@ git clone https://github.com/Yarpii-Tech/esx_joblisting2.git [esx]/esx_joblistin
 ```
 
 ## Installation
-- Check in your database 'jobs' if 'whitelisted' exists
-- Import THE PART YOU NEED in `esx_joblisting2.sql` in your database by command!
+- Check in your database 'jobs' table exist in your datbase..
+- if not then import 'import.sql' to your database you use. 
 - Add this in your `server.cfg`:
-
+```
+ensure esx_joblisting2
+```
 ```
 
 # Make it work
