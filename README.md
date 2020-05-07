@@ -1,13 +1,7 @@
 ## INSTRUCTION
 Application to the employment office at a known location. Callback number and SteamID64 added; application will be implemented and posted directly in Discord via Weebhook-Link.
 
-## PLANNING
-Implement whitelisting request.
 
-## esx_joblisting2
-Based on wowpanda/esx_joblisting2
-
-# HOW TO INSTALL
 ## Download
 
 ### Using Git
@@ -22,11 +16,9 @@ git clone https://github.com/Yarpii-Tech/esx_joblisting2.git [esx]/esx_joblistin
 
 
 ## Installation
-- Check in your database 'jobs' table exist in your datbase..
-- if not then import 'import.sql' to your database. 
-
-Now open your `server.cfg`
-and rename 
+- Check in your database `jobs` table exist in your datbase..
+- if not then import `import.sql` to your database. 
+- Now open your `server.cfg` and rename 
 ```
 ensure esx_joblisting
 ```
@@ -34,6 +26,7 @@ to
 ```
 ensure esx_joblisting2
 ```
+- and delete the old `esx_joblisting` as we dont need that one..
 
 
 # Make it work
@@ -43,7 +36,7 @@ Follow this How-To to creat your discord channel webhook
 https://gist.github.com/eslachance/40ac1c8232a5a019b43ee3f588d637ad
 
 ## Step 2
-Now we open esx_joblisting2\config.lua
+Now we open esx_joblisting2/`config.lua`
 ```
 Config.Webhook = {
 	police = "police",
@@ -74,8 +67,11 @@ Config.Webhook = {
 }
 ```
 
-```
-I forked these files from: 		https://github.com/wowpanda/esx_joblisting2
-And i copied this nice readme from: 	https://github.com/NebelRebell/esx_joblisting2
+## esx_joblisting2
+- Based on wowpanda/esx_joblisting2
+
+## Extra
+- I forked these files from: 		https://github.com/wowpanda/esx_joblisting2
+- And i copied this nice readme from: 	https://github.com/NebelRebell/esx_joblisting2
 
 Much love,,
