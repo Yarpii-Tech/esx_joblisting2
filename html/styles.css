@@ -84,7 +84,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-cell-top{vertical-align:top}.w3-cell-middle{vertical-align:middle}.w3-cell-bottom{vertical-align:bottom}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
 @media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
-.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
 .w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
 .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
 @media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
@@ -229,54 +229,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
-	.app {
-		display: none;
-		background-image: url('img/tablet.png');
-		background-size: 100%;
-
-		position:absolute;
-		left:0; right:0;
-		top:0; bottom:0;
-		margin: auto;
-	
-		height: 843px;
-		width: 566px;
-		overflow: hidden;
-	
-	}
-	
-	#screen {
-	
-		position:absolute;
-		left:0; right:0;
-		top:11; bottom:0;
-		margin: auto;
-	
-		height: 685px;
-		width: 425px;
-		overflow:auto;
-	}
-	
-	#banner {
-		background-image: url('img/header.png');
-		
-		height: 132px;
-	}
-	
-	body {
-		
-		height: 100%;
-	}
-	
-	textarea {
-		
-		width: 100%;
-		
-	}
-	
-	.editor {
-		
-		width: 100%;
-		
-	}
-	
+/* the app itself */
+.app {display:none;background-image:url('img/tablet.png');background-size:100%;position:absolute;left:0; right:0;top:0;bottom:0;margin:auto;height:843px;width:566px;overflow:hidden;}
+#screen {position:absolute;left:0; right:0;top:11; bottom:0;margin:auto;height:685px;width:425px;overflow:auto;}
+#screen::-webkit-scrollbar {display:none;}
+#banner {background-image:url('img/header.png');height:132px;}
+body {height:100%;overflow:hidden; }
+textarea {width:100%;}
+.editor {width:100%;}
